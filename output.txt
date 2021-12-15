@@ -1,0 +1,120 @@
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+systemd-timesync:x:102:104:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:103:106::/nonexistent:/usr/sbin/nologin
+syslog:x:104:110::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+tss:x:106:111:TPM software stack,,,:/var/lib/tpm:/bin/false
+rtkit:x:107:112:RealtimeKit,,,:/proc:/usr/sbin/nologin
+systemd-coredump:x:108:113:systemd Core Dumper,,,:/run/systemd:/usr/sbin/nologin
+kernoops:x:109:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+uuidd:x:110:118::/run/uuidd:/usr/sbin/nologin
+cups-pk-helper:x:111:114:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+tcpdump:x:112:120::/nonexistent:/usr/sbin/nologin
+geoclue:x:113:122::/var/lib/geoclue:/usr/sbin/nologin
+avahi-autoipd:x:114:123:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+usbmux:x:115:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+dnsmasq:x:116:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+_flatpak:x:117:125:Flatpak system-wide installation helper,,,:/nonexistent:/usr/sbin/nologin
+avahi:x:118:126:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin
+saned:x:119:127::/var/lib/saned:/usr/sbin/nologin
+lightdm:x:120:128:Light Display Manager:/var/lib/lightdm:/bin/false
+colord:x:121:130:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+pulse:x:122:131:PulseAudio daemon,,,:/var/run/pulse:/usr/sbin/nologin
+speech-dispatcher:x:123:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+nm-openvpn:x:124:133:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+hplip:x:125:7:HPLIP system user,,,:/run/hplip:/bin/false
+gipsy:x:1000:1000:gipsy,,,:/home/gipsy:/bin/bash
+----------------------------------------------------------------
+  Fichero: /var/lib/docker/overlay2/5b0b4c76a2a881d7d6f65e4b394881217690b237b6f5b2879f0fcacddd0e12c1/diff/usr/src/app/node_modules/@discordjs/builders/dist/messages
+  Tamaño: 4096      	Bloques: 8          Bloque E/S: 4096   directorio
+Dispositivo: 805h/2053d	Nodo-i: 5529253     Enlaces: 3
+Acceso: (0775/drwxrwxr-x)  Uid: (    0/    root)   Gid: (    0/    root)
+Acceso: 2021-12-14 23:18:09.783405915 -0600
+Modificación: 2021-11-03 18:36:01.000000000 -0600
+      Cambio: 2021-11-28 21:29:41.420447003 -0600
+    Creación: -
+  Fichero: /var/lib/docker/overlay2/def084c689b45fd32953677f16d6e428bedc1f379b4ba1dfab901b96f94a86dc/diff/usr/src/app/node_modules/@discordjs/builders/dist/messages
+  Tamaño: 4096      	Bloques: 8          Bloque E/S: 4096   directorio
+Dispositivo: 805h/2053d	Nodo-i: 1583700     Enlaces: 3
+Acceso: (0755/drwxr-xr-x)  Uid: (    0/    root)   Gid: (    0/    root)
+Acceso: 2021-12-14 23:18:10.151402473 -0600
+Modificación: 2021-11-29 05:11:36.000000000 -0600
+      Cambio: 2021-11-29 05:11:44.652169707 -0600
+    Creación: -
+  Fichero: /var/lib/docker/overlay2/25efdad24858803d002b2ac6ea316a93ed39a6ea9bf16170997cb083244f7fb9/diff/usr/src/app/node_modules/@discordjs/builders/dist/messages
+  Tamaño: 4096      	Bloques: 8          Bloque E/S: 4096   directorio
+Dispositivo: 805h/2053d	Nodo-i: 2251900     Enlaces: 3
+Acceso: (0775/drwxrwxr-x)  Uid: (    0/    root)   Gid: (    0/    root)
+Acceso: 2021-12-14 23:18:10.527398956 -0600
+Modificación: 2021-11-03 18:36:01.000000000 -0600
+      Cambio: 2021-11-28 17:44:48.967698242 -0600
+    Creación: -
+  Fichero: /var/lib/docker/overlay2/f1d5aba6eae02e17b62803161439fc36eba182c408ff8bbdef4d102f8ab98056/diff/usr/src/app/node_modules/@discordjs/builders/dist/messages
+  Tamaño: 4096      	Bloques: 8          Bloque E/S: 4096   directorio
+Dispositivo: 805h/2053d	Nodo-i: 1464049     Enlaces: 3
+Acceso: (0755/drwxr-xr-x)  Uid: (    0/    root)   Gid: (    0/    root)
+Acceso: 2021-12-14 23:18:10.711397236 -0600
+Modificación: 2021-11-29 05:10:53.000000000 -0600
+      Cambio: 2021-11-29 05:11:00.064104150 -0600
+    Creación: -
+  Fichero: /var/lib/docker/overlay2/510bd508d2c430fc3bed77818a5d25cdd0fd4d585ab66772bf2c1ab88d5d08b8/diff/usr/src/app/node_modules/@discordjs/builders/dist/messages
+  Tamaño: 4096      	Bloques: 8          Bloque E/S: 4096   directorio
+Dispositivo: 805h/2053d	Nodo-i: 1207295     Enlaces: 3
+Acceso: (0775/drwxrwxr-x)  Uid: (    0/    root)   Gid: (    0/    root)
+Acceso: 2021-12-14 23:18:11.515389713 -0600
+Modificación: 2021-11-03 18:36:01.000000000 -0600
+      Cambio: 2021-11-28 00:26:08.933740808 -0600
+    Creación: -
+  Fichero: /var/lib/docker/overlay2/1c25402ada6ede85d642e58d97d869e43c105ad8a1e9e06fedba21fd62d21cb1/diff/usr/src/app/node_modules/@discordjs/builders/dist/messages
+  Tamaño: 4096      	Bloques: 8          Bloque E/S: 4096   directorio
+Dispositivo: 805h/2053d	Nodo-i: 2255104     Enlaces: 3
+Acceso: (0755/drwxr-xr-x)  Uid: (    0/    root)   Gid: (    0/    root)
+Acceso: 2021-12-14 23:18:11.623388702 -0600
+Modificación: 2021-11-28 00:26:02.000000000 -0600
+      Cambio: 2021-11-28 00:26:06.821744480 -0600
+    Creación: -
+  Fichero: /var/lib/docker/overlay2/6aa9ac83496a69c77dece73e7e9b8cb98df53a9611bbccc3f90a063a27678c7b/diff/usr/src/app/node_modules/@discordjs/builders/dist/messages
+  Tamaño: 4096      	Bloques: 8          Bloque E/S: 4096   directorio
+Dispositivo: 805h/2053d	Nodo-i: 5916531     Enlaces: 3
+Acceso: (0755/drwxr-xr-x)  Uid: (    0/    root)   Gid: (    0/    root)
+Acceso: 2021-12-14 23:18:12.255382787 -0600
+Modificación: 2021-11-29 05:09:24.000000000 -0600
+      Cambio: 2021-11-29 05:09:28.463953759 -0600
+    Creación: -
+  Fichero: /var/lib/docker/overlay2/cd89cf8b159c5de2ee4dad078b4becc0c4b0ff99f2294640519f7d919451f75d/diff/usr/src/app/node_modules/@discordjs/builders/dist/messages
+  Tamaño: 4096      	Bloques: 8          Bloque E/S: 4096   directorio
+Dispositivo: 805h/2053d	Nodo-i: 2242292     Enlaces: 3
+Acceso: (0775/drwxrwxr-x)  Uid: (    0/    root)   Gid: (    0/    root)
+Acceso: 2021-12-14 23:18:12.643379155 -0600
+Modificación: 2021-11-03 18:36:01.000000000 -0600
+      Cambio: 2021-11-28 21:54:42.281712873 -0600
+    Creación: -
+  Fichero: /var/log/auth.log
+  Tamaño: 526981    	Bloques: 1040       Bloque E/S: 4096   fichero regular
+Dispositivo: 805h/2053d	Nodo-i: 5014790     Enlaces: 1
+Acceso: (0640/-rw-r-----)  Uid: (  104/  syslog)   Gid: (    4/     adm)
+Acceso: 2021-12-15 11:59:55.933726837 -0600
+Modificación: 2021-12-15 13:36:32.492004955 -0600
+      Cambio: 2021-12-15 13:36:32.492004955 -0600
+    Creación: -
+----------------------------------------------------------------
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
