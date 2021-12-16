@@ -33,7 +33,7 @@ for x in pswdfile:
 
 dir = os.path.dirname(os.path.realpath(__file__))
 
-filepath = dir + '/' + input("Enter filename: ")
+filepath = dir + '/' + raw_input("Enter filename: ")
 
 if(os.path.exists(filepath)):
     print('Overwriting file ' + filepath)
